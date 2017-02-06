@@ -1,0 +1,80 @@
+body {
+	
+	background-color: red;
+}
+
+
+
+/*Section-one Start*/
+
+.section-one {
+	width: 100%;
+	height: 500px;
+	background-color: white;
+}
+
+
+
+/* anything with width, use mediaqueary */
+
+@media screen and (min-width: 680px) {
+
+
+.section-two {
+	width: 100%;
+	height: 500px;
+	background-color: red;
+	display: flex;
+	}
+
+
+
+	.section-two-first-column {
+		width: 30%;
+		height: 500px;
+		background-color: grey;
+	}
+
+
+	.section-two-second-column {
+	width: 30%;
+	height: 500px;
+	background-color: ;
+	}
+
+
+	.section-two-third-column {
+	width: 40%;
+	height: 500px;
+	
+	}
+
+}
+
+
+	.section-two-second-column-top {
+	
+	height: 50% ;
+	background-color: pink;
+	}
+
+	.section-two-second-column-bottom {
+	height: 50%;
+	background-color: purple;
+	}
+
+
+
+
+
+	.section-two-third-column-top{
+	height: 50%;
+	background-color: purple;
+	}
+
+
+	.section-two-third-column-bottom{
+	height: 50%;
+	background-color: pink;
+	}
+
